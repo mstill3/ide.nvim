@@ -77,3 +77,12 @@ vim.api.nvim_create_autocmd("WinClosed", {
     end
   end,
 })
+
+
+-- vim.api.nvim_command([[
+--   highlight Normal guibg=NONE ctermbg=NONE
+--   highlight NormalNC guibg=NONE ctermbg=NONE
+--   highlight EndOfBuffer guibg=NONE ctermbg=NONE
+--   highlight SignColumn guibg=NONE ctermbg=NONE
+--   highlight LineNr guibg=NONE ctermbg=NONE
+-- ]])

@@ -16,9 +16,11 @@ M.base46 = {
 
 M.ui = {
   theme = "tokyonight", -- Your preferred theme
+  -- transparency = true,
+
   statusline = {
     theme = "vscode_colored", -- Change to any supported theme: 'default', 'vscode', 'vscode_colored', 'minimal'.
-    -- separator_style = "default", -- You can use 'round', 'block', 'arrow', 'default'
+    separator_style = "default", -- You can use 'round', 'block', 'arrow', 'default'
   },
 }
 
