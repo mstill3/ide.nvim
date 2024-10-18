@@ -6,12 +6,20 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "tokyonight",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+}
+
+M.ui = {
+  theme = "tokyonight", -- Your preferred theme
+  statusline = {
+    theme = "vscode_colored", -- Change to any supported theme: 'default', 'vscode', 'vscode_colored', 'minimal'.
+    -- separator_style = "default", -- You can use 'round', 'block', 'arrow', 'default'
+  },
 }
 
 return M
